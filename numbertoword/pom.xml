@@ -4,18 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>byteseparator-demo</groupId>
-    <artifactId>byteseparator</artifactId>
-    <packaging>pom</packaging>
+    <groupId>numbertoword-demo</groupId>
+    <artifactId>numbertoword</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.5.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -23,8 +24,4 @@
             </plugin>
         </plugins>
     </build>
-    <modules>
-        <module>../../../BigData/code/hadoopwordcount</module>
-        <module>../numbertoword</module>
-    </modules>
 </project>
